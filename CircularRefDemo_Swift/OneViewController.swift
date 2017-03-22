@@ -2,17 +2,17 @@
 //  OneViewController.swift
 //  CircularRefDemo_Swift
 //
-//  Created by SYZ on 16/3/19.
-//  Copyright © 2016年 iSyz. All rights reserved.
+//  Created by iLB on 16/3/19.
+//  Copyright © 2016年 iLB. All rights reserved.
 //
 
 import UIKit
 
 class OneViewController: UIViewController, TwoViewControllerDelegate {
 
-    private var twoController: TwoViewController!
-    private var threeController: ThreeViewController!
-    private let name = "Paolo Maldini"
+    fileprivate var twoController: TwoViewController!
+    fileprivate var threeController: ThreeViewController!
+    fileprivate let name = "Paolo Maldini"
     
     override func viewDidLoad() {
         super.viewDidLoad()
